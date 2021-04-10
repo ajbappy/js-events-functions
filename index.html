@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS link-->
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+
+    <title>js events and functions</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>click the button to change the text bellow</h1>
+          <button type="button" onclick="textChange()" >click me</button>
+          <p id="p">hellow world</p>
+        </div>
+      </div>
+    </div>
+
+         <h2>double click the button to change the text</h2>
+         <button type="button" ondblclick="textChangeH2()">click me</button>
+         <h2 id="h2">hellow</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>mouse over the button to change the text</h1>
+          <button type="button" onmouseover="textChangeHellow()">mouse over</button>
+          <h2 id="hellow">hellow</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>mouse out the button to change the text</h1>
+          <button type="button" onmouseout="textAlert()">mouse out</button>
+          <h2 id="alert">hellow</h2>
+        </div>
+      </div>
+    </div>
+
+       <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>mouse up the button to change the text</h1>
+          <button type="button" onmouseup="textWelcome()">mouse up</button>
+          <h2 id="welcome">hellow</h2>
+        </div>
+      </div>
+    </div>
+     
+    <h1 id="demo">hellow </h1>
+    <button onclick="window.print()"> print the window</button>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <button type="button" onclick="myf()">click me</button>
+        </div>
+
+        <div class="col-lg-2">
+          <button type="button" onclick="myans()">how are you?</button>
+        </div>
+
+        <div class="col-lg-2">
+          <button type="button" onclick="function mycon()">button</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!--  JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
